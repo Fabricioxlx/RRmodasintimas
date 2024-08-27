@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="stylev.css">
+        <link rel="stylesheet" href="mediav.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vestuário</title>
+    </head>
+    <body>
+        <header>
+            <div class="titulo">
+                <h1 class="destaque">RR</h1>
+                <h1 class="destaque2">Modas Íntimas</h1>
+            </div>
+            <ul id="links">
+                <a href="index.html"><li class="link">Início</li></a>
+                <a href="sobre.html"><li class="link">Sobre</li></a>
+                <a href="vestuario.html"><li class="link">Vestuário</li></a>
+                <a href="sejanossocliente.html"><li class="link">Seja Nosso Cliente</li></a>
+            </ul>
+        </header>
+        <main>
+            <hr>
+            <div>
+                <h1 class="destaque2" id="subtitulo">Vestuário</h1>
+            </div>
+            <hr>
+            <article>
+                <div class="imagembox">
+                    <img src="asserts/article1.jpg" alt="article1">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article2.jpg" alt="article2">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article3.jpg" alt="article3">
+                    <h3>Descrição</h3>
+                </div>
+            </article>
+            
+            <article>
+                <div class="imagembox">
+                    <img src="asserts/article4.jpg" alt="article4">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article5.jpg" alt="article5">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article6.jpg" alt="article6">
+                    <h3>Descrição</h3>
+                </div>
+            </article>
+            
+            <article>
+                <div class="imagembox">
+                    <img src="asserts/article7.jpg" alt="article7">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article8.jpg" alt="article8">
+                    <h3>Descrição</h3>
+                </div>
+                
+                <div class="imagembox">
+                    <img src="asserts/article9.jpg" alt="article9">
+                    <h3>Descrição</h3>
+                </div>
+            </article>
+            <hr>
+            <form>
+                <fieldset>
+                    <legend>Simule uma compra</legend>
+                    <div id="tipobox">
+                        <input type="radio" name="tipo" id="pix" checked>
+                        <label for="pix">Pix</label>
+                        <input type="radio" name="tipo" id="cartao">
+                        <label for="cartao">Cartão</label>
+                    </div>
+                    <div id="valorbox">
+                        <input type="text" id="valor" name="valor" placeholder="Valor do Produto">
+                    </div>
+                    <div id="quantidadebox">
+                        <input type="number" id="quantidade" name="quantidade" placeholder="Quantidade">
+                    </div>
+                    <button onclick="verificarTipo()">Informar dados</button>
+                    <div class="hidden" id="divparcelas">
+                        <div id="parcelabox">
+                            <select id="parcelas">
+                                <option value="1">1 Parcela</option>
+                                <option value="2">2 Parcelas</option>
+                            </select>
+                        </div>
+                        <div id="parcelastextobox">
+                            <p id="parcelastexto">
+                                1x: R$00,00
+                                <br>
+                                2x: R$00,00
+                            </p>
+                        </div>
+                    </div>
+                    <div id="totalbox">
+                        <p id="total">
+                            Total: R$00,00
+                        </p>
+                    </div>
+                    <button onclick="calcular()">Calcular</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <h1 class="destaque2">
+                Fale Conosco
+            </h1>
+            <div id="contatos">
+                <div class="contato">
+                    <img src="asserts/whatsapp.png" alt="whatsapp">
+                    <a href="https://wa.me/558183970178"><label for="whatsapp" class="contatolink">+55 81 8397-0178</label></a>
+                </div>
+                <div class="contato">
+                    <img src="asserts/correspondencia.png" alt="email">
+                    <label for="email">renatarafaela108@gmail.com</label>
+                </div>
+                <div class="contato">
+                    <img src="asserts/instagram.png" alt="instagram">
+                    <a href="https://www.instagram.com/renatarafaela.25?igsh=MTQyNnRra2pyMnYwMQ=="><label for="instagram" class="contatolink">renatarafaela.25</label></a>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

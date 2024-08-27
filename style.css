@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+body{
+    font-family: "Lobster", sans-serif;
+    background-image: url(asserts/backgroundbody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: beige;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titulo{
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    line-height: 25px;
+}
+.destaque2{
+    color: violet;
+}
+#links{
+    display: inline-flex;
+    margin-top: 3%;
+    justify-content: space-around;
+} 
+.link{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link:hover{
+    background-color: violet;
+}
+li{
+    list-style: none;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+main{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#textobox{
+    height: 100%;
+}
+#texto{
+    border: 5px solid violet;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 100%;
+    width: 400px;
+    background-image: url(asserts/backgroundtexto.jpg);
+}
+article{
+    width: 40%;
+    height: 100%;
+}
+article img{
+    height: 470px;
+    border-radius: 100%;
+    border: 5px dotted violet;
+}
+#carrosselbox{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    margin-top: 55px;
+    background-color: violet;
+    color: beige;
+    font-size: 25px;
+    border: none;
+    align-self: center;
+}
+footer{
+    font-family: "Pacifico", cursive;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contatos{
+    font-size: 25px;
+    align-items: center;
+}
+.contatolink{
+    cursor: pointer;
+}
+#contatos img{
+    width: 45px;
+    height: 45px;
+}
+hr{
+    width: 80%;
+    align-self: center;
+}

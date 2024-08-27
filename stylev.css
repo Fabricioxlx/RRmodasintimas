@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+body{
+    font-family: "Lobster", sans-serif;
+    background-image: url(asserts/backgroundbody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: beige;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titulo{
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    line-height: 25px;
+}
+.destaque2{
+    color: violet;
+}
+#links{
+    display: inline-flex;
+    margin-top: 3%;
+    justify-content: space-around;
+} 
+.link{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link:hover{
+    background-color: violet;
+}
+li{
+    list-style: none;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+main{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article{
+    margin: 10px;
+    justify-content: space-around;
+    border: 5px solid violet;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+
+    background-image: url(asserts/backgroundarticle.jpg);
+}
+article img{
+    border: 3px solid purple;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+.imagembox{
+    text-align: center;
+    color: purple;
+}
+h3{
+    font-size: 40px;
+}
+form{
+    width: 30%;
+    background-color: blueviolet;
+    align-self: center;
+    border: 5px solid purple;
+    border-radius: 30px;
+    padding: 2%;
+    font-size: 30px;
+}
+legend{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid purple;
+    background-color: purple;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: violet;
+    color: beige;
+    font-size: 25px;
+    border: none;
+    align-self: center;
+}
+#valorbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#quantidadebox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    padding: 5px;
+    border:none;
+    border-bottom: 5px solid purple;
+    background-color: blueviolet;
+    outline: none;
+}
+input::placeholder{
+    color: beige;
+}
+select{
+    padding: 10px;
+    background-color: violet;
+    color: beige;
+}
+footer{
+    font-family: "Pacifico", cursive;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contatos{
+    font-size: 25px;
+    align-items: center;
+}
+.contatolink{
+    cursor: pointer;
+}
+#contatos img{
+    width: 45px;
+    height: 45px;
+}
+hr{
+    align-self: center;
+    width: 80%;
+}
+#subtitulo{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
