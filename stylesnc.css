@@ -50,27 +50,47 @@ main{
     flex-direction: column;
     text-align: center;
 }
-article img{
-    border: 5px solid  rgb(134, 44, 134);
-    border-radius: 10px;
-    margin: 20px;
-    width: 50%;
-    height: 10%;
-}
-#textobox{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-#texto{
+
+form{
+    width: 30%;
+    background-color: blueviolet;
     align-self: center;
-    border: 5px solid violet;
-    border-radius: 10px;
+    border: 5px solid purple;
+    border-radius: 30px;
+    padding: 2%;
     font-size: 30px;
-    height: 100%;
-    width: 400px;
-    background-image: url(asserts/backgroundtexto.jpg);
 }
+legend{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid purple;
+    background-color: purple;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: violet;
+    color: beige;
+    font-size: 25px;
+    border: none;
+    align-self: center;
+    margin-top: 20px;
+}
+input{
+    padding: 5px;
+    border:none;
+    border-bottom: 5px solid purple;
+    background-color: blueviolet;
+    outline: none;
+}
+input::placeholder{
+    color: beige;
+}
+
 footer{
     font-family: "Pacifico", cursive;
     margin-top: 10%;
@@ -92,4 +112,7 @@ footer{
 hr{
     width: 80%;
     align-self: center;
+}
+h3{
+    font-size: 30px;
 }

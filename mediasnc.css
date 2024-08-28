@@ -4,11 +4,7 @@
     }
     #subtitulo{
         text-align: left;
-    }
-    article img {
-        margin-left: 5%;
-        width: 100%;
-        height: 50%;
+        margin-left: 50px;
     }
     header{
         margin-left: 0%;
@@ -17,9 +13,6 @@
     }
     legend{
         font-size: 30px;
-    }
-    #texto{
-        font-size: 26px;
     }
     #links{
         text-align: left;
@@ -31,8 +24,8 @@
         display: flex;
         flex-direction: column;
     }
-    article{
-        width: 90%;
+    form{
+        width: 70%;
     }
     h1{
         margin-left: 10%;
