@@ -50,47 +50,18 @@ main{
     flex-direction: column;
     text-align: center;
 }
-
-form{
-    width: 30%;
-    background-color: blueviolet;
+#textobox{
     align-self: center;
-    border: 5px solid purple;
-    border-radius: 30px;
-    padding: 2%;
-    font-size: 30px;
+    height: 100%;
 }
-legend{
-    text-align: center;
-    padding: 5px;
-    border: 2px solid purple;
-    background-color: purple;
+#texto{
+    border: 5px solid violet;
     border-radius: 10px;
-}
-button{
-    cursor: pointer;
-    padding: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    background-color: violet;
-    color: beige;
     font-size: 25px;
-    border: none;
-    align-self: center;
-    margin-top: 20px;
+    height: 100%;
+    width: 400px;
+    background-image: url(asserts/backgroundtexto.jpg);
 }
-input{
-    padding: 5px;
-    border:none;
-    border-bottom: 5px solid purple;
-    background-color: blueviolet;
-    outline: none;
-}
-input::placeholder{
-    color: beige;
-}
-
 footer{
     font-family: "Pacifico", cursive;
     margin-top: 10%;
